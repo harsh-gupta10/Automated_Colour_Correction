@@ -1,0 +1,137 @@
+.
+├── a.py
+├── a.txt
+├── code
+│   ├── Ann
+│   │   ├── ANN_1D.ipynb
+│   │   ├── ANN_3D.ipynb
+│   │   ├── CSV_ABC
+│   │   │   ├── adobe5k_a.csv
+│   │   │   ├── adobe5k_b.csv
+│   │   │   └── adobe5k_c.csv
+│   │   ├── NewModels
+│   │   │   ├── ExposureModel.h5
+│   │   │   ├── HueModel.h5
+│   │   │   ├── Result_1d.csv
+│   │   │   ├── resultExposure.csv
+│   │   │   ├── resultHue.csv
+│   │   │   ├── resultSaturation.csv
+│   │   │   └── SaturationModel.h5
+│   │   ├── NewModels3D
+│   │   │   ├── A
+│   │   │   ├── B
+│   │   │   └── C
+│   │   ├── Results_on5k
+│   │   │   ├── predicted
+│   │   │   └── Raw
+│   │   └── test.ipynb
+│   ├── binning
+│   │   ├── 1_binning_extract.ipynb
+│   │   ├── 2_binning_regression.ipynb
+│   │   ├── binned_data.csv
+│   │   ├── binned_data_processed.csv
+│   │   └── binning.md
+│   ├── Filters_ImageProperties
+│   │   └── main.py
+│   ├── pix2pix
+│   │   ├── generator_epoch_100.pth
+│   │   ├── output
+│   │   ├── test.py
+│   │   └── train.py
+│   ├── PIX2PIX
+│   │   └── train_test.py
+│   ├── react-photo-editor
+│   │   ├── index.html
+│   │   ├── package.json
+│   │   ├── package-lock.json
+│   │   ├── photos
+│   │   │   ├── result
+│   │   │   └── test
+│   │   ├── postcss.config.js
+│   │   ├── src
+│   │   │   ├── App.tsx
+│   │   │   ├── components
+│   │   │   ├── csvData
+│   │   │   ├── index.tsx
+│   │   │   ├── main.tsx
+│   │   │   └── vite-env.d.ts
+│   │   ├── tailwind.config.js
+│   │   ├── tsconfig.json
+│   │   ├── tsconfig.node.json
+│   │   ├── vite.config.ts
+│   │   └── vitest.config.ts
+│   ├── regression
+│   │   ├── adobe5k.csv
+│   │   ├── regression.ipynb
+│   │   ├── regression_model.ipynb
+│   │   ├── regression_modular
+│   │   │   ├── adobe5k_a.csv
+│   │   │   ├── adobe5k_b.csv
+│   │   │   ├── adobe5k_c.csv
+│   │   │   ├── regression.ipynb
+│   │   │   ├── regression.md
+│   │   │   └── test_data.csv
+│   │   ├── test.csv
+│   │   └── testing.ipynb
+│   └── resnet
+│       ├── featureapplication.py
+│       ├── featureextraction.py
+│       ├── predict_resnet18_MLP.py
+│       ├── README.md
+│       ├── resnet18_MLP.py
+│       ├── resnet18.py
+│       ├── test_resnet18_MLP.py
+│       ├── test_resnet18.py
+│       ├── trained_model_a.pth
+│       ├── trained_model_b.pth
+│       └── trained_model_c.pth
+├── docs
+│   ├── DesignDoc.pdf
+│   ├── previous_submissions
+│   │   ├── team_46_projectsynopsis.pdf
+│   │   ├── Team_46_projectSynopsis.pdf
+│   │   └── team_46_statustracker.xlsx
+│   ├── Project_Plan
+│   │   ├── project_plan.txt
+│   │   ├── ProjectPlan_v0.pdf
+│   │   └── ProjectPlan_v1.pdf
+│   ├── Project_Synopsis
+│   │   ├── Team_46_projectSynopsis.pdf
+│   │   └── Team_46_projectSynopsis_ver2.pdf
+│   ├── resource_task
+│   │   ├── Recources and Tasks.pdf
+│   │   └── resource_task.txt
+│   ├── SRS_document
+│   │   ├── Requirements.pdf
+│   │   ├── requirements.txt
+│   │   ├── requirements_version2.pdf
+│   │   └── requirements_version2.txt
+│   ├── Status_Tracker
+│   │   ├── status_tracker.txt
+│   │   ├── team_46_status_tracker_w10.xlsx
+│   │   ├── team_46_statustracker_w11.xlsx
+│   │   ├── team_46_statustracker_w12.xlsx
+│   │   ├── team_46_statustracker_w13.xlsx
+│   │   ├── team_46_status_tracker_w14.xlsx
+│   │   ├── team_46_statustracker_w4.xlsx
+│   │   ├── team_46_statustracker_w5.xlsx
+│   │   ├── team_46_status_tracker_w6.xlsx
+│   │   ├── team_46_statustracker_w8.xlsx
+│   │   └── team_46_statustracker_w9.xlsx
+│   └── Test_plan
+│       ├── TestPlan_ver2.xlsx
+│       ├── TestPlan_ver3.xlsx
+│       └── TestPlan.xlsx
+├── MoM
+│   ├── MOMS_MEET-1.pdf
+│   ├── MOMs_MEET-2.pdf
+│   ├── MOMs_MEET-3.pdf
+│   ├── MOMs_MEET-4.pdf
+│   ├── MOMs_MEET-5.pdf
+│   ├── MOMs_MEET-6.pdf
+│   ├── MOMs_MEET-7.pdf
+│   ├── MOMs_MEET-9.pdf
+│   └── moms.txt
+└── README.md
+
+35 directories, 99 files

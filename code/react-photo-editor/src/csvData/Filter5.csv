@@ -1,0 +1,36 @@
+  useEffect(() => {
+    if (file) {
+      const fileSrc = URL.createObjectURL(file);
+      setImageSrc(fileSrc);
+      setImageName(file.name);
+      return () => {
+        URL.revokeObjectURL(fileSrc);
+      }
+    }
+
+  }, [file, open])
+
+  useEffect(() => {
+    applyFilter();
+  }, [file, imageSrc, rotate, flipHorizontal, flipVertical, zoom, brightnessValue, hueValue, saturateValue, grayscaleValue]);
+
+  const applyFilter = () => {
+    const canvas = canvasRef.current;
+    const context = canvas?.getContext('2d');
+    const image = new Image();
+    image.src = imageSrc;
+    image.onload = () => {
+      if (canvas && context) {
+        canvas.width = image.width;
+        canvas.height = image.height;
+        context.filter = getFilterString();
+        context.save();
+        context.drawImage(image, 0, 0, canvas.width, canvas.height);
+        context.restore();
+      }
+    };
+  };
+
+  const getFilterString = () => {
+    return `hue-rotate(${hueValue}deg) saturate(${saturateValue}%) brightness(${brightnessValue}%)`;
+  };
